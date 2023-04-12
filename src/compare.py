@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 def get_score_compare_string(score):
     return_string = ''
-    for el in score.flat.notes:
+    for el in score.flat.elements:
         # level 1: notes, rests, time signatures
         currentType = str(type(el))
         if currentType == "<class 'music21.note.Note'>":
@@ -29,11 +29,36 @@ def get_score_compare_string(score):
         if currentType == "<class 'music21.meter.TimeSignature'>":
             return_string += 'Time Signature: ' + str(el.numerator) + '/' + str(el.denominator) + '\n'
         
-        # level 2: key signatures
+        # level 2: key signatures, articulations, dynamics
         if args.level < 2:
             continue
         if currentType == "<class 'music21.key.KeySignature'>":
             return_string += 'Key Signature: ' + str(el.sharps) + '\n'
+        # articulations
+        if currentType == "<class 'music21.note.Note'>":
+            for articulation in el.articulations:
+                return_string += '\tArticulation: ' + articulation.name + '\n'
+        # dynamics
+        if currentType == "<class 'music21.dynamics.Dynamic'>":
+            return_string += 'Dynamic: ' + el.value + '\n'
+        
+        # level 3: lines (spanners)
+        # types of spanners in music21: https://web.mit.edu/music21/doc/moduleReference/moduleSpanner.html
+        if args.level < 3:
+            continue
+        if currentType == "<class 'music21.spanner.Slur'>":
+            return_string += 'Slur: ' + str(el) + '\n'
+        # glissandos
+        if currentType == "<class 'music21.spanner.Glissando'>":
+            return_string += 'Glissando: ' + str(el) + '\n'
+        # ties
+        if currentType == "<class 'music21.tie.Tie'>":
+            return_string += 'Tie: ' + str(el) + '\n'
+        # trills
+        if currentType == "<class 'music21.spanner.TrillSpanner'>":
+            return_string += 'Trill: ' + str(el) + '\n'
+
+        
     
     return return_string
 
@@ -94,8 +119,9 @@ for piece_num in range(start, edge+1):
         # round to 2 decimal places
         return str(round(percentage, 2)) + "%"
 
+    results_folder = "../results/level_" + str(args.level) + "/report"
     # Write out results to report[piecenum].txt
-    with open('../results/report' + str(piece_num) + '.md', 'w') as f:
+    with open(results_folder + str(piece_num) + '.md', 'w') as f:
         # Write Header
         f.write("# Piece " + str(piece_num) + " Comparison Results\n")
 
@@ -104,20 +130,21 @@ for piece_num in range(start, edge+1):
         f.write("(Desktop Application)" + dnl)
         f.write("Grade for scanscore: **" + get_percentage(num_diff_scanscore, num_lines) + "**" + dnl)
         f.write("Number of differences between ground truth and scanscore: " + num_diff_scanscore)
+        f.write("( out of " + num_lines + ")" + dnl)
 
         # Play Score
         f.write("## PlayScore2" + dnl)
         f.write("(Mobile-iOS Application)"+ dnl)
         f.write("Grade for playscore: **" + get_percentage(num_diff_playscore, num_lines) + "**" + dnl)
         f.write("Number of differences between ground truth and playscore: " + num_diff_playscore)
-        f.write(dnl)
+        f.write("( out of " + num_lines + ")" + dnl)
         f.write(div + "\n")
-        if num_diff_scanscore != 0:
+        if int(num_diff_scanscore) != 0:
             f.write("## ScanScore Diff Output" + dnl)
             f.write("```" + '\n')
             f.write(diff_scanscore)
             f.write("```" + dnl)
-        if num_diff_playscore != 0:
+        if int(num_diff_playscore) != 0:
             f.write("## PlayScore Diff Output" + dnl)
             f.write("```" + '\n')
             f.write(diff_playscore)
