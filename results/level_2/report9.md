@@ -1,9 +1,13 @@
-# Piece 4 Comparison Results
+# Piece 9 Comparison Results
 ## ScanScore3
 (Desktop Application)
-Grade for scanscore: **98.01%**
 
-Number of differences between ground truth and scanscore:        4
+Grade for scanscore: **99.45%**
+
+Number of differences between ground truth and scanscore:        2
+( out of 364
+)
+
 ## PlayScore2
 
 (Mobile-iOS Application)
@@ -11,27 +15,18 @@ Number of differences between ground truth and scanscore:        4
 Grade for playscore: **100.0%**
 
 Number of differences between ground truth and playscore:        0
-
+( out of 364
+)
 
 ----------------------------------------
 ## ScanScore Diff Output
 
 ```
 1d0
-< D4 (0.5) 
-3a3,4
-> A4 (0.5) 
-> D5 (0.5) 
-22d22
-< E4 (1.0) 
-162c162
-< F5 (0.75) 
+< Key Signature: 1
+225c224
+< E4 (1.5) 
 ---
-> F5 (0.5) 
-```
-
-## PlayScore Diff Output
-
-```
+> E4 (1.0) 
 ```
 

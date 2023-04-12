@@ -1,23 +1,32 @@
 # Piece 5 Comparison Results
 ## ScanScore3
 (Desktop Application)
-Grade for scanscore: **96.22%**
 
-Number of differences between ground truth and scanscore:       25
+Grade for scanscore: **95.88%**
+
+Number of differences between ground truth and scanscore:       33
+( out of 801
+)
+
 ## PlayScore2
 
 (Mobile-iOS Application)
 
-Grade for playscore: **100.0%**
+Grade for playscore: **99.38%**
 
-Number of differences between ground truth and playscore:        0
-
+Number of differences between ground truth and playscore:        5
+( out of 801
+)
 
 ----------------------------------------
 ## ScanScore Diff Output
 
 ```
-73,77c73,77
+1d0
+< Key Signature: 1
+27d25
+< 	Articulation: staccato
+103,107c101,105
 < G4 (0.25) 
 < G4 (0.25) 
 < E4 (0.25) 
@@ -29,7 +38,8 @@ Number of differences between ground truth and playscore:        0
 > E4 (0.5) 
 > G4 (0.5) 
 > A4 (0.5) 
-84,88c84,88
+117,122c115,119
+< 	Articulation: staccato
 < G4 (0.25) 
 < G4 (0.25) 
 < E4 (0.25) 
@@ -41,11 +51,13 @@ Number of differences between ground truth and playscore:        0
 > E4 (0.5) 
 > G4 (0.5) 
 > A4 (0.5) 
-92c92
+127c124
 < B5 (0.75) 
 ---
 > B5 (0.5) 
-192,194c192,194
+173d169
+< 	Articulation: staccato
+264,266c260,262
 < A5 (1/12) 
 < B-5 (1/12) 
 < A5 (1/12) 
@@ -53,34 +65,46 @@ Number of differences between ground truth and playscore:        0
 > A5 (0.125) 
 > B-5 (0.125) 
 > A5 (0.125) 
-312c312
+281d276
+< 	Articulation: staccato
+303d297
+< 	Articulation: staccato
+305d298
+< Dynamic: f
+316d308
+< 	Articulation: staccato
+406c398
 < E5 (0.25) 
 ---
 > E#5 (0.25) 
-318c318
+412c404
 < E5 (0.25) 
 ---
 > E#5 (0.25) 
-352,355d351
+448,451d439
 < F#5 (1.0) 
 < G5 (1.0) 
 < A5 (1.0) 
 < F#5 (1.0) 
-381d376
+478c466
 < F#4 (2.0) 
-400d394
+---
+> Rest (4.0) 
+499d486
 < E4 (2.0) 
-403c397
+505c492
 < F#5 (0.75) 
 ---
 > F#5 (0.5) 
-450,451d443
+510d496
+< 	Articulation: staccato
+561,562d546
 < E-4 (0.25) 
 < E-4 (0.25) 
-452a445,446
+563a548,549
 > E-4 (0.5) 
 > E-4 (0.5) 
-580,581c574,578
+692,693c678,682
 < G4 (0.25) 
 < G4 (0.25) 
 ---
@@ -89,24 +113,12 @@ Number of differences between ground truth and playscore:        0
 > E4 (0.5) 
 > G4 (0.5) 
 > A4 (0.5) 
-583,584d579
+695,696d683
 < G4 (0.25) 
 < A4 (0.25) 
-586d580
+698d684
 < E4 (0.25) 
-591,595c585,589
-< G4 (0.25) 
-< G4 (0.25) 
-< E4 (0.25) 
-< G4 (0.25) 
-< A4 (0.25) 
----
-> G4 (0.5) 
-> G4 (0.5) 
-> E4 (0.5) 
-> G4 (0.5) 
-> A4 (0.5) 
-602,606c596,600
+704,708c690,694
 < G4 (0.25) 
 < G4 (0.25) 
 < E4 (0.25) 
@@ -118,35 +130,7 @@ Number of differences between ground truth and playscore:        0
 > E4 (0.5) 
 > G4 (0.5) 
 > A4 (0.5) 
-613,614c607,611
-< G4 (0.25) 
-< G4 (0.25) 
----
-> G4 (0.5) 
-> G4 (0.5) 
-> E4 (0.5) 
-> G4 (0.5) 
-> A4 (0.5) 
-616,617d612
-< G4 (0.25) 
-< A4 (0.25) 
-619d613
-< E4 (0.25) 
-624,625c618,622
-< G4 (0.25) 
-< G4 (0.25) 
----
-> G4 (0.5) 
-> G4 (0.5) 
-> E4 (0.5) 
-> G4 (0.5) 
-> A4 (0.5) 
-627,628d623
-< G4 (0.25) 
-< A4 (0.25) 
-630d624
-< E4 (0.25) 
-635,639c629,633
+720,724c706,710
 < G4 (0.25) 
 < G4 (0.25) 
 < E4 (0.25) 
@@ -158,7 +142,50 @@ Number of differences between ground truth and playscore:        0
 > E4 (0.5) 
 > G4 (0.5) 
 > A4 (0.5) 
-643c637
+728d713
+< 	Articulation: staccato
+735,739c720,724
+< G4 (0.25) 
+< G4 (0.25) 
+< E4 (0.25) 
+< G4 (0.25) 
+< A4 (0.25) 
+---
+> G4 (0.5) 
+> G4 (0.5) 
+> E4 (0.5) 
+> G4 (0.5) 
+> A4 (0.5) 
+751,752c736,740
+< G4 (0.25) 
+< G4 (0.25) 
+---
+> G4 (0.5) 
+> G4 (0.5) 
+> E4 (0.5) 
+> G4 (0.5) 
+> A4 (0.5) 
+754,755d741
+< G4 (0.25) 
+< A4 (0.25) 
+757d742
+< E4 (0.25) 
+761d745
+< 	Articulation: staccato
+765,770c749,753
+< 	Articulation: staccato
+< G4 (0.25) 
+< G4 (0.25) 
+< E4 (0.25) 
+< G4 (0.25) 
+< A4 (0.25) 
+---
+> G4 (0.5) 
+> G4 (0.5) 
+> E4 (0.5) 
+> G4 (0.5) 
+> A4 (0.5) 
+776c759
 < B4 (0.75) 
 ---
 > B4 (0.5) 
@@ -167,5 +194,15 @@ Number of differences between ground truth and playscore:        0
 ## PlayScore Diff Output
 
 ```
+305d304
+< Dynamic: f
+466a466
+> 	Articulation: fingering
+472a473
+> 	Articulation: fingering
+498a500
+> 	Articulation: fingering
+511a514
+> 	Articulation: tenuto
 ```
 
