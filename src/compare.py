@@ -34,13 +34,11 @@ def get_score_compare_string(score):
             continue
         if currentType == "<class 'music21.key.KeySignature'>":
             return_string += 'Key Signature: ' + str(el.sharps) + '\n'
-        # articulations
+        # articulations and dynamics
         if currentType == "<class 'music21.note.Note'>":
+            return_string += 'Dynamic: ' + el.value + '\n'
             for articulation in el.articulations:
                 return_string += '\tArticulation: ' + articulation.name + '\n'
-        # dynamics
-        if currentType == "<class 'music21.dynamics.Dynamic'>":
-            return_string += 'Dynamic: ' + el.value + '\n'
         
         # level 3: lines (spanners)
         # types of spanners in music21: https://web.mit.edu/music21/doc/moduleReference/moduleSpanner.html
