@@ -1,0 +1,1418 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN"
+			"http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">
+    <movement-title/>
+    <identification>
+        <creator type="composer"/>
+        <creator type="writer"/>
+        <creator type="arranger"/>
+        <creator type="madeYear"/>
+        <encoding>
+            <software>MusicXML Library v3</software></encoding></identification>
+    <defaults>
+        <scaling>
+            <millimeters>7</millimeters>
+            <tenths>40</tenths></scaling>
+        <page-layout>
+            <page-height>1697</page-height>
+            <page-width>1200</page-width>
+            <page-margins type="both">
+                <left-margin>85</left-margin>
+                <right-margin>85</right-margin>
+                <top-margin>85</top-margin>
+                <bottom-margin>85</bottom-margin></page-margins></page-layout>
+        <staff-layout>
+            <staff-distance>2</staff-distance></staff-layout>
+        <lyric-font font-family="Calibri" font-size="13"/></defaults>
+    <part-list>
+        <part-group type="start" number="1"/>
+        <score-part id="P1">
+            <part-name print-object="no">Piano</part-name></score-part>
+        <part-group type="stop" number="1"/></part-list>
+    <part id="P1">
+        <measure number="1" width="219">
+            <attributes>
+                <divisions>480</divisions>
+                <key>
+                    <fifths>-6</fifths>
+                    <mode>major</mode></key>
+                <time>
+                    <beats>4</beats>
+                    <beat-type>4</beat-type></time>
+                <staves>1</staves>
+                <clef number="1">
+                    <sign>F</sign>
+                    <line>4</line></clef></attributes>
+            <print new-system="yes" page-number="1">
+                <system-layout>
+                    <system-margins>
+                        <left-margin>2.85714</left-margin>
+                        <right-margin>0</right-margin></system-margins>
+                    <top-system-distance>223</top-system-distance></system-layout>
+                <staff-layout number="1">
+                    <staff-distance>102</staff-distance></staff-layout></print>
+            <note default-x="142" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="164" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="184" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="2" width="97">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="14" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="37" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="61" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="3" width="137">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="17" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="47" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="77" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>720</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <dot/>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="116" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="4" width="182">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam></note>
+            <note default-x="39" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="61" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="86" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="109" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="144" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="5" width="99">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="39" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="62" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="6" width="107">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>C</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="41" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="66" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="7" width="106">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>720</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <dot/>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="51" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="67" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="8" width="142">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="12" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>1920</duration>
+                <voice>1</voice>
+                <type>whole</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="9" width="201">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <print new-system="yes">
+                <system-layout>
+                    <system-margins>
+                        <left-margin>2.85714</left-margin>
+                        <right-margin>0</right-margin></system-margins>
+                    <system-distance>102</system-distance></system-layout>
+                <staff-layout number="1">
+                    <staff-distance>102</staff-distance></staff-layout></print>
+            <note default-x="161" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <tie type="start"/>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="start"/></notations></note>
+            <backup>
+                <duration>960</duration></backup></measure>
+        <measure number="10" width="176">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <tie type="stop"/>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam>
+                <notations>
+                    <tied type="stop"/></notations></note>
+            <note default-x="42" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="67" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="94" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="119" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="11" width="131">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="42" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="66" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1440</duration></backup></measure>
+        <measure number="12" width="167">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="37" color="#000000">
+                <pitch>
+                    <step>C</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="59" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="81" color="#000000">
+                <pitch>
+                    <step>C</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="102" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>720</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <dot/>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="144" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="13" width="107">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="14" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="46" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1440</duration></backup></measure>
+        <measure number="14" width="191">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="39" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="64" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="87" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="112" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="152" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="15" width="116">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="47" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>1440</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <dot/>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="16" width="284">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <print new-system="yes">
+                <system-layout>
+                    <system-margins>
+                        <left-margin>2.85714</left-margin>
+                        <right-margin>0</right-margin></system-margins>
+                    <system-distance>102</system-distance></system-layout>
+                <staff-layout number="1">
+                    <staff-distance>102</staff-distance></staff-layout></print>
+            <note default-x="147" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="174" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="201" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="226" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <tie type="start"/>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="start"/></notations></note>
+            <backup>
+                <duration>1680</duration></backup></measure>
+        <measure number="17" width="137">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="14" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <tie type="stop"/>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations>
+                <notations>
+                    <tied type="stop"/></notations></note>
+            <note default-x="44" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="76" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="107" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="18" width="127">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="19" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>0</alter>
+                    <octave>3</octave></pitch>
+                <duration>720</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <dot/>
+                <accidental>natural</accidental>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="61" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <note default-x="81" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <tie type="start"/>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="start"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="19" width="137">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>240</duration>
+                <tie type="stop"/>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="stop"/></notations></note>
+            <note default-x="6" color="#000000">
+                <rest/>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <staff>1</staff></note>
+            <note default-x="9" color="#000000">
+                <rest/>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <staff>1</staff></note>
+            <note default-x="16" color="#000000">
+                <rest/>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="20" width="124">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="44" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="74" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="21" width="124">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="46" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="76" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="22" width="154">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="14" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="51" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="86" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>720</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <dot/>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="131" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="23" width="296">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <print new-system="yes">
+                <system-layout>
+                    <system-margins>
+                        <left-margin>2.85714</left-margin>
+                        <right-margin>0</right-margin></system-margins>
+                    <system-distance>102</system-distance></system-layout>
+                <staff-layout number="1">
+                    <staff-distance>102</staff-distance></staff-layout></print>
+            <note default-x="147" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">begin</beam></note>
+            <note default-x="171" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">continue</beam></note>
+            <note default-x="194" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>240</duration>
+                <voice>1</voice>
+                <type>eighth</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <beam number="1">end</beam></note>
+            <note default-x="219" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="257" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1680</duration></backup></measure>
+        <measure number="24" width="116">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>E</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="42" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="72" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="25" width="122">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>C</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="46" color="#000000">
+                <pitch>
+                    <step>D</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="74" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="26" width="116">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="16" color="#000000">
+                <pitch>
+                    <step>A</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="start" orientation="under"/></notations></note>
+            <note default-x="42" color="#000000">
+                <pitch>
+                    <step>G</step>
+                    <alter>-1</alter>
+                    <octave>3</octave></pitch>
+                <duration>480</duration>
+                <voice>1</voice>
+                <type>quarter</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff></note>
+            <note default-x="71" color="#000000">
+                <pitch>
+                    <step>F</step>
+                    <octave>3</octave></pitch>
+                <duration>960</duration>
+                <voice>1</voice>
+                <type>half</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <slur number="1" type="stop" orientation="under"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="27" width="87">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="7" color="#000000">
+                <rest/>
+                <duration>1920</duration>
+                <voice>1</voice>
+                <type>whole</type>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="28" width="86">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="11" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>1920</duration>
+                <tie type="start"/>
+                <voice>1</voice>
+                <type>whole</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="start"/></notations></note>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <backup>
+                <duration>1920</duration></backup>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction>
+            <direction placement="below">
+                <direction-type>
+                    <wedge relative-x="14" type="diminuendo"/></direction-type></direction></measure>
+        <measure number="29" width="87">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="12" color="#000000">
+                <pitch>
+                    <step>B</step>
+                    <alter>-1</alter>
+                    <octave>4</octave></pitch>
+                <duration>1920</duration>
+                <tie type="stop"/>
+                <voice>1</voice>
+                <type>whole</type>
+                <stem color="#000000">down</stem>
+                <notehead>normal</notehead>
+                <staff>1</staff>
+                <notations>
+                    <tied type="stop"/></notations></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="30" width="87">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="7" color="#000000">
+                <rest/>
+                <duration>1920</duration>
+                <voice>1</voice>
+                <type>whole</type>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup></measure>
+        <measure number="31" width="96">
+            <attributes/>
+            <barline location="left">
+                <bar-style>heavy</bar-style></barline>
+            <note default-x="7" color="#000000">
+                <rest/>
+                <duration>1920</duration>
+                <voice>1</voice>
+                <type>whole</type>
+                <staff>1</staff></note>
+            <backup>
+                <duration>1920</duration></backup>
+            <barline>
+                <bar-style>light-heavy</bar-style></barline></measure></part></score-partwise>
